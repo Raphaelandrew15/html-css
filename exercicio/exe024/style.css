@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+
+}
+
+
+.bloco_um{
+  background-image: url(assets/wallpaper002.jpg);
+  background-position: left top;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+
+}
+
+
+.bloco_dois{
+  background-image: url(assets/wallpaper002.jpg);
+  background-position: left center;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+
+.bloco_tres{
+    background-image: url(assets/wallpaper002.jpg);
+    background-position: right bottom;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+  }
+
+  .bloco_quatro{
+    background-image: url(assets/wallpaper002.jpg);
+    background-position:center center;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+  }
