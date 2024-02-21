@@ -111,11 +111,11 @@ section#img01{
 section#img02{
     background-image: url(assets/background002.jpg);
     background-position: left center;
-    b
+    
     
 }
 
-.estrofe_um{
+.estrofe_um {
     width: 200px;
     overflow-wrap: break-word;
     word-wrap: break-word;

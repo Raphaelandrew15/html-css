@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    bottom: 10px;
+}
+caption{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead > tr >th{
+    position: sticky;
+    top:0;
+    background-color: gray;
+    padding: -1px;;
+}
+.corpo>tr:nth-child(odd){
+    background-color: bisque;
+}
+
+thead{
+    background-color: gray;
+    color: white;
+}
+
+.ranking{
+    width: 30spx;
+    text-align: center;
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.país{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.numero{
+    text-align: right;
+}
