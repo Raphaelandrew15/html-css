@@ -57,3 +57,17 @@ td{
 .numero{
     text-align: right;
 }
+
+
+.consoante{
+text-align: center;
+}
+
+tfoot{
+    background-color: gray;
+    color: white;
+}
+
+.total{
+    text-align: right;
+}
