@@ -1,0 +1,37 @@
+@charset "UTF-8";   
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table{
+  width: 500px;
+  border-collapse: collapse;
+}
+
+.legenda{
+    background-color: rgba(123, 119, 119, 0.728);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+th{
+  border: 1px solid black;  
+  padding: 10px;
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.Nome{
+    background-color: greenyellow;
+}
+
+.identidade{
+    background-color: yellow;
+}
