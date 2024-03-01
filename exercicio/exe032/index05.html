@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Formuláriot</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+       
+    
+       <fieldset>
+          <legend>Esportes favoritos</legend>
+          <label for="ifut"><input type="checkbox" name="esfut" id="ifut" >Futebol<br></label>
+              <label for="ivol"><input type="checkbox" name="esvol" id="ivol" >Vôlei<br></label>
+              <label for="ixadrez"><input type="checkbox" name="esxadrez" id="ixadrez" > Xadrez<br></label>
+              <label for="igi"><input type="checkbox" name="esgi" id="igi" > Gínastica<br></label>
+              <label for="ipete"><input type="checkbox" name="espete" id="ipete" > Peteca<br></label>
+     </fieldset>
+     <p>
+        <fieldset>
+            <legend>Meus objetos favoritos</legend>
+            <label for="ibicicleta"><input type="radio" name="objeto" id="ibicicleta">Bicicleta</label><br>
+            <label for="ivideogame"><input type="radio" name="objeto" id="ivideogame">Vídeogame</label><br>
+            <label for="ipatins"><input type="radio" name="objeto" id="ipatins">Patins</label><br>
+            <label for="ibola"><input type="radio" name="objeto" id="ibola">Bola</label><br>
+            <label for="iradio"><input type="radio" name="objeto" id="iradio">Rádio</label><br>
+            
+        </fieldset>    
+        <p>
+            <fieldset>
+             <legend>Sexo</legend>
+             <label for="isfem"> <input type="radio" name="sexo" id="isfem">Femenino</label><br>
+             <label for="ismas"><input type="radio" name="sexo" id="ismas" checked>Masculino</label><br>
+            </fieldset>
+        </p>    
+     </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+     </p>
+
+   </form>
+</body>
+</html>
