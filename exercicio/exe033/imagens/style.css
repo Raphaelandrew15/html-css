@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+*{
+ margin: 0px;
+ padding: 0px;  
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+header{
+    background-color:#800000;
+}
+
+.titulo_principal{
+    text-align: center;
+    color: #FFFFF0;
+}
+
+
+.menu{
+    list-style-type: none;
+    background-color:800000;
+}
+
+.lista_conteudo{
+    background-color:#800000;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.lista_menu{
+    background-color:#800000;
+    color:#FFFFF0 ;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+article{
+    inline-size: 600px;
+    line-height: 2em;
+    display: block;
+    margin:auto;
+    padding: 10px;
+
+}
