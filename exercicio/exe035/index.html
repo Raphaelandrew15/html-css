@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
+
+    <title>Menu responsivo</title>
+</head>
+<body onreset="mudouTamanho()">
+    <header>
+         <h1 class="titulo_principal">Meu site</h1>
+         <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">&#xe5d2</span>
+           
+         <menu id="itens">
+        <ul class="lista_menu">
+            <li><a class="link_menu" href="">Opção 1</a></li>
+            <li><a class="link_menu" href="#">Opção 2</a></li>
+            <li><a class="link_menu" href="#">Opção 3</a></li>
+            <li><a class="link_menu" href="#">Opção 4</a></li>
+          </menu>
+         </ul>
+    </header>
+    <main>
+       <h2 class="sub_titulo">Testando Media Queries</h2>
+       <article>
+       <p class="paragrafo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tenetur qui perferendis dolor voluptatibus, voluptates nostrum ipsum voluptate repellendus fugit asperiores quod explicabo ut laboriosam exercitationem voluptas magni quo modi.
+       </p>
+       <p lass="paragrafo">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus aut quis rerum at ullam deleniti eveniet eos inventore animi explicabo asperiores, ea vero, placeat labore distinctio qui deserunt, nihil corrupti. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus dolorem maiores quaerat, beatae fugit, iste itaque sunt cumque nisi, non perferendis facere voluptatum! Deserunt sint, asperiores itaque nulla quia cum?
+       </p>
+       <p lass="paragrafo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quasi atque, praesentium fuga voluptate placeat numquam consequuntur cumque recusandae distinctio iusto qui nam illum, eius, tempora dolore sint eveniet. Nemo?
+       </p>
+       <p lass="paragrafo">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet iste exercitationem molestias quas incidunt sit, voluptates nisi error delectus eaque. Nihil eum rerum odio ullam velit? Maxime, voluptas dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, placeat. Deserunt eos quisquam eius ab repellendus perferendis delectus nisi fugiat ea, quod id earum dicta doloremque accusantium, aliquam quia porro! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio dolores doloribus iure laborum quia voluptates! Doloremque delectus quae cupiditate corrupti molestias perferendis, rerum ad dolore consequatur ipsam amet nam.
+       </p>
+       <p lass="paragrafo">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem consequatur recusandae vitae sint magni tenetur ex optio. Aliquid ipsum, animi ex, maiores tempore aliquam reprehenderit eius voluptatibus, enim placeat corporis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit non ipsam aspernatur incidunt recusandae quibusdam laborum labore magnam aliquam architecto, iusto voluptatem saepe ducimus dolorum cupiditate. A quod recusandae sed. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sunt eaque sequi. Illum voluptas dolorum obcaecati ea optio illo facere temporibus enim sequi. Ea ad eaque suscipit. Labore, tempore maxime?
+       </p>
+     </article>
+    </main>
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display ='block'
+            } else {
+                itens.style.display = 'block'
+            }
+        
+        }
+        
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+
+            }else{
+                itens.style.display = 'block'
+                
+            }
+        }
+    </script>
+</body>
+</html>
